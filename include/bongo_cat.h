@@ -6,6 +6,9 @@
   #include <pgmspace.h>
 #endif
 #include <cstdint>
+
+// Here you must declare your animation namespace. It must be the same as the name of your animation file. For example, if your animation file is called "bongo_cat.h", then your namespace must be "bongo_cat".
+
 namespace bongo_cat {
   
   const int PROGMEM count = 5;  // Here you must declare total numbers of frames in the animation
